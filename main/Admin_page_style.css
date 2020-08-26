@@ -1,0 +1,103 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5)), url(admin_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+.title{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button1{
+    position:absolute;
+    top: 9%;
+    left: 89%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+}
+.button4{
+    position:absolute;
+    top: 9%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.button5{
+    position:absolute;
+    top: 9%;
+    left: 96%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.button2{
+    position:absolute;
+    top: 9%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+}
+.button3{
+    position:absolute;
+    top: 9%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+}
+
+       
+        
+.btn1{
+    border: 1px solid #fff transparent;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition:0.6s ease ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}.btn2{
+    border: 1px solid #fff transparent;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition:0.6s ease ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.user{
+    width:150px;
+	height:150px; 
+	overflow:hidden;
+	position:absolute;
+	top:0.5%;
+	left:0.4%;
+	border-radius:50%;
+
+
+    
+	
+    
+}
+.btn1:hover{
+    background-color: #fff;
+    color:#000;
+}
+.btn2:hover{
+    background-color: #fff;
+    color:#000;
+}
